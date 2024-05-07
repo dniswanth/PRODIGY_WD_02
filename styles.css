@@ -1,0 +1,59 @@
+.stopwatch {
+  text-align: center;
+  margin-top: 50px;
+}
+#display {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+.stopwatch-heading {
+  color:black;
+  text-align: center;
+}
+.stopwatch #startStopButton {
+  background-color: #4CAF50; /* Green */
+}
+
+.stopwatch #lapButton {
+  background-color: #007bff; /* Blue */
+}
+
+.stopwatch #resetButton {
+  background-color: #dc3545; /* Red */
+}
+
+.stopwatch button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.stopwatch button:hover {
+  opacity: 0.8;
+}
+.lap-table-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#lapTable {
+  margin: auto;
+}
+
+#lapTable th, #lapTable td {
+  text-align: center;
+}
+
+
